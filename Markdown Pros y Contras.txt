@@ -1,0 +1,11 @@
+# **PROS Y CONTRAS DE NOTACIONES**
+
+---------------------
+
+
+| | *Nassi-Schneiderman* | *Diagrama de flujos* | *Pseudocódigo* | *C++* |
+|-|----------------------|----------------------|----------------|-------|
+
+|PROS|Al eliminar el uso de flechas, se presenta más claro, además, quien lo lee solo debe hacerlo en modo descendente para saber como continua el programa.|Es facilmenteentendible en la representación de programas más simples. El uso de flecha permite ver mas facilmente las iteraciones.|Cualquiera que lo lea puede entender cual y como será la lógica de nuestro programa, por su simpleza y lenguaje descontracturado.|Una vez que uno escribe el código está en condiciones reales de crear el programa, las demás son sólo representaciones de un programa, pero lo único que es compilable para generar software es el código.|
+
+|CONTRAS|Este tipo de representación puede llegar a requerir generalmente demasiado espacio cuando hay muchas funciones anidadas.|Si el programa es muy extenso uno puede perderse ante el uso de tantas flechas.|Es sólo una forma de abstraernos y simplificar el programa de modo que sea más fácil de ver su funcionamiento, uno no puede crear programas escribiendo en pseudocódigo.|Para escribir en código hay que respetar  un conjunto de reglas y manejar palabras y un lenguaje que las demás no te exigen, y que si no se toman en cuenta, llevarán a un error de compilación.|
